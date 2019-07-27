@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDFC71BA229365C000D51592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC71B9229365C000D51592 /* AppDelegate.swift */; };
+		DDFC71BC229365C000D51592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC71BB229365C000D51592 /* ViewController.swift */; };
+		DDFC71BF229365C000D51592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFC71BD229365C000D51592 /* Main.storyboard */; };
+		DDFC71C1229365C100D51592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFC71C0229365C100D51592 /* Assets.xcassets */; };
+		DDFC71C4229365C100D51592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFC71C2229365C100D51592 /* LaunchScreen.storyboard */; };
+		DDFC71CF229365C100D51592 /* CustomModalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC71CE229365C100D51592 /* CustomModalsTests.swift */; };
+		DDFC71DA229365C100D51592 /* CustomModalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC71D9229365C100D51592 /* CustomModalsUITests.swift */; };
+		DDFC71E82293660A00D51592 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC71E72293660A00D51592 /* ModalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDFC71CB229365C100D51592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFC71AE229365C000D51592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFC71B5229365C000D51592;
+			remoteInfo = CustomModals;
+		};
+		DDFC71D6229365C100D51592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFC71AE229365C000D51592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFC71B5229365C000D51592;
+			remoteInfo = CustomModals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDFC71B6229365C000D51592 /* CustomModals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomModals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC71B9229365C000D51592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDFC71BB229365C000D51592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDFC71BE229365C000D51592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDFC71C0229365C100D51592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDFC71C3229365C100D51592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDFC71C5229365C100D51592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFC71CA229365C100D51592 /* CustomModalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomModalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC71CE229365C100D51592 /* CustomModalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModalsTests.swift; sourceTree = "<group>"; };
+		DDFC71D0229365C100D51592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFC71D5229365C100D51592 /* CustomModalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomModalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC71D9229365C100D51592 /* CustomModalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModalsUITests.swift; sourceTree = "<group>"; };
+		DDFC71DB229365C100D51592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFC71E72293660A00D51592 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDFC71B3229365C000D51592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC71C7229365C100D51592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC71D2229365C100D51592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDFC71AD229365C000D51592 = {
+			isa = PBXGroup;
+			children = (
+				DDFC71B8229365C000D51592 /* CustomModals */,
+				DDFC71CD229365C100D51592 /* CustomModalsTests */,
+				DDFC71D8229365C100D51592 /* CustomModalsUITests */,
+				DDFC71B7229365C000D51592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFC71B7229365C000D51592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC71B6229365C000D51592 /* CustomModals.app */,
+				DDFC71CA229365C100D51592 /* CustomModalsTests.xctest */,
+				DDFC71D5229365C100D51592 /* CustomModalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFC71B8229365C000D51592 /* CustomModals */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC71B9229365C000D51592 /* AppDelegate.swift */,
+				DDFC71BB229365C000D51592 /* ViewController.swift */,
+				DDFC71BD229365C000D51592 /* Main.storyboard */,
+				DDFC71C0229365C100D51592 /* Assets.xcassets */,
+				DDFC71C2229365C100D51592 /* LaunchScreen.storyboard */,
+				DDFC71C5229365C100D51592 /* Info.plist */,
+				DDFC71E72293660A00D51592 /* ModalViewController.swift */,
+			);
+			path = CustomModals;
+			sourceTree = "<group>";
+		};
+		DDFC71CD229365C100D51592 /* CustomModalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC71CE229365C100D51592 /* CustomModalsTests.swift */,
+				DDFC71D0229365C100D51592 /* Info.plist */,
+			);
+			path = CustomModalsTests;
+			sourceTree = "<group>";
+		};
+		DDFC71D8229365C100D51592 /* CustomModalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC71D9229365C100D51592 /* CustomModalsUITests.swift */,
+				DDFC71DB229365C100D51592 /* Info.plist */,
+			);
+			path = CustomModalsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDFC71B5229365C000D51592 /* CustomModals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFC71DE229365C100D51592 /* Build configuration list for PBXNativeTarget "CustomModals" */;
+			buildPhases = (
+				DDFC71B2229365C000D51592 /* Sources */,
+				DDFC71B3229365C000D51592 /* Frameworks */,
+				DDFC71B4229365C000D51592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomModals;
+			productName = CustomModals;
+			productReference = DDFC71B6229365C000D51592 /* CustomModals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDFC71C9229365C100D51592 /* CustomModalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFC71E1229365C100D51592 /* Build configuration list for PBXNativeTarget "CustomModalsTests" */;
+			buildPhases = (
+				DDFC71C6229365C100D51592 /* Sources */,
+				DDFC71C7229365C100D51592 /* Frameworks */,
+				DDFC71C8229365C100D51592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFC71CC229365C100D51592 /* PBXTargetDependency */,
+			);
+			name = CustomModalsTests;
+			productName = CustomModalsTests;
+			productReference = DDFC71CA229365C100D51592 /* CustomModalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDFC71D4229365C100D51592 /* CustomModalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFC71E4229365C100D51592 /* Build configuration list for PBXNativeTarget "CustomModalsUITests" */;
+			buildPhases = (
+				DDFC71D1229365C100D51592 /* Sources */,
+				DDFC71D2229365C100D51592 /* Frameworks */,
+				DDFC71D3229365C100D51592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFC71D7229365C100D51592 /* PBXTargetDependency */,
+			);
+			name = CustomModalsUITests;
+			productName = CustomModalsUITests;
+			productReference = DDFC71D5229365C100D51592 /* CustomModalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFC71AE229365C000D51592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = GSE;
+				TargetAttributes = {
+					DDFC71B5229365C000D51592 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DDFC71C9229365C100D51592 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DDFC71B5229365C000D51592;
+					};
+					DDFC71D4229365C100D51592 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DDFC71B5229365C000D51592;
+					};
+				};
+			};
+			buildConfigurationList = DDFC71B1229365C000D51592 /* Build configuration list for PBXProject "CustomModals" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDFC71AD229365C000D51592;
+			productRefGroup = DDFC71B7229365C000D51592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFC71B5229365C000D51592 /* CustomModals */,
+				DDFC71C9229365C100D51592 /* CustomModalsTests */,
+				DDFC71D4229365C100D51592 /* CustomModalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFC71B4229365C000D51592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFC71C4229365C100D51592 /* LaunchScreen.storyboard in Resources */,
+				DDFC71C1229365C100D51592 /* Assets.xcassets in Resources */,
+				DDFC71BF229365C000D51592 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC71C8229365C100D51592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC71D3229365C100D51592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDFC71B2229365C000D51592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFC71BC229365C000D51592 /* ViewController.swift in Sources */,
+				DDFC71E82293660A00D51592 /* ModalViewController.swift in Sources */,
+				DDFC71BA229365C000D51592 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC71C6229365C100D51592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFC71CF229365C100D51592 /* CustomModalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC71D1229365C100D51592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFC71DA229365C100D51592 /* CustomModalsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDFC71CC229365C100D51592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFC71B5229365C000D51592 /* CustomModals */;
+			targetProxy = DDFC71CB229365C100D51592 /* PBXContainerItemProxy */;
+		};
+		DDFC71D7229365C100D51592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFC71B5229365C000D51592 /* CustomModals */;
+			targetProxy = DDFC71D6229365C100D51592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDFC71BD229365C000D51592 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFC71BE229365C000D51592 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDFC71C2229365C100D51592 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFC71C3229365C100D51592 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDFC71DC229365C100D51592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDFC71DD229365C100D51592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDFC71DF229365C100D51592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = CustomModals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.CustomModals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDFC71E0229365C100D51592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = CustomModals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.CustomModals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDFC71E2229365C100D51592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = CustomModalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.CustomModalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomModals.app/CustomModals";
+			};
+			name = Debug;
+		};
+		DDFC71E3229365C100D51592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = CustomModalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.CustomModalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomModals.app/CustomModals";
+			};
+			name = Release;
+		};
+		DDFC71E5229365C100D51592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = CustomModalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.CustomModalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomModals;
+			};
+			name = Debug;
+		};
+		DDFC71E6229365C100D51592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = CustomModalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.CustomModalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomModals;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDFC71B1229365C000D51592 /* Build configuration list for PBXProject "CustomModals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC71DC229365C100D51592 /* Debug */,
+				DDFC71DD229365C100D51592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFC71DE229365C100D51592 /* Build configuration list for PBXNativeTarget "CustomModals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC71DF229365C100D51592 /* Debug */,
+				DDFC71E0229365C100D51592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFC71E1229365C100D51592 /* Build configuration list for PBXNativeTarget "CustomModalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC71E2229365C100D51592 /* Debug */,
+				DDFC71E3229365C100D51592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFC71E4229365C100D51592 /* Build configuration list for PBXNativeTarget "CustomModalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC71E5229365C100D51592 /* Debug */,
+				DDFC71E6229365C100D51592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDFC71AE229365C000D51592 /* Project object */;
+}
